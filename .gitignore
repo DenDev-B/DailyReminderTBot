@@ -1,14 +1,19 @@
+# Environment
+.env
+venv/
+env/
+ENV/
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-venv/
-env/
 
-# Environment
-.env
+# Data
+data/reminders.json
+!data/.gitkeep
 
 # IDE
 .vscode/
@@ -16,5 +21,15 @@ env/
 *.swp
 *.swo
 
+# OS
+.DS_Store
+Thumbs.db
+
 # Logs
 *.log
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
